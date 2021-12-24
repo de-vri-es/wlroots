@@ -237,7 +237,7 @@ bool wlr_renderer_init_wl_shm(struct wlr_renderer *r,
 			}
 		}
 	}
-	assert(argb8888 && xrgb8888);
+	//assert(argb8888 && xrgb8888);
 
 	return true;
 }
